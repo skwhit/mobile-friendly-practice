@@ -17,10 +17,8 @@ body {
     margin: 0 auto;
 }
 
-.path {
-    fill: linear-gradient( black, blue);
-    /* gradient and fallback color */
-    fill: url(#my-cool-gradient) #41BDE0;
+path {
+    fill: url(#gradient) #41BDE0;
   }
 
 .title {
@@ -39,13 +37,18 @@ body {
 }
 
 .content {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
+    padding: 0 5%;
 }
 
 h2 {
     color: #256F84;
     margin-bottom: 10px;
+}
+
+h2:last-of-type {
+    margin-top: 15px;
 }
 
 h2:last-of-type, p:last-of-type {
